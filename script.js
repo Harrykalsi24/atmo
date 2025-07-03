@@ -7,7 +7,7 @@ class WeatherApp {
         this.currentWeather = null;
         this.forecast = null;
         this.loading = false;
-
+        
         this.initializeApp();
     }
 
