@@ -2,7 +2,7 @@
 
 class WeatherApp {
     constructor() {
-        this.API_KEY = process.env.W_API || ''; // Set from environment variable
+        this.API_KEY='953979d4a8d50f33ff60ec66d2d0edc6';
         this.BASE_URL = 'https://api.openweathermap.org/data/2.5';
         this.currentWeather = null;
         this.forecast = null;
@@ -10,12 +10,6 @@ class WeatherApp {
 
         this.initializeApp();
     }
-
-    async initializeApp() {
-        // Your app init logic
-        console.log('Initializing Weather App...');
-    }
-}
 
     initializeApp() {
         this.bindEvents();
